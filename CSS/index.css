@@ -1,0 +1,357 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0 auto;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto ;
+    text-align: center;
+}
+.title{
+    font-size: 45px;
+    font-weight: 600;
+}
+.clearfix{
+    clear: both;
+}
+.button{
+    font-weight: 500;
+    font-size: 18px;
+    padding: 20px 30px;
+    border-radius: 50px;
+    border: none;
+    background-image: -webkit-linear-gradient(0deg,#5f36ff 0%,#b719f6 100%);
+    cursor: pointer;
+    color: #fff;
+    text-transform: uppercase;
+}
+.button:hover{
+    background: none;
+}
+
+/*Main header section*/
+.main-banner{
+    background: url('../image/office.png') right;
+    background-size: cover;
+    min-height: 890px;
+}
+.main-header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: rgba(34,34,34,.9);
+    z-index: 10;
+}
+.main-header__image img{
+    width: 120px;
+    height: 100px;
+    float: left;
+    cursor: pointer;
+}
+.navigation{
+    margin-right:0;
+    display: inline-block;
+    margin-top: 24px;
+}
+.navigation-item{
+    display: inline-block;
+    margin-right: 10px;
+    text-align: center;
+}
+.navigation-item a{
+    padding: 0 8px 0px 8px;
+    text-decoration: none;
+    display: inline-block;
+    color:#fff;
+    font-weight: 400;
+    font-size: 12px;
+    text-transform: uppercase;
+    outline: none;
+}
+
+/*Main section*/
+.main-section{
+    text-align: center;
+    padding-top: 400px;
+    line-height: 1.5em;
+}
+.section-title{
+    font-size: 20px;
+    font-weight: 400;
+    vertical-align: inherit;
+    color: #fff;
+}
+.main-title{
+    color: #fff;
+}
+.main-button:hover{
+    border: 1px solid #fff;
+}
+.title-info{
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+}
+
+/*Services section*/
+
+.services>div{
+    width: 50%;
+    height: 700px;
+    padding: 100px 10px;
+    box-sizing: border-box;
+    background-color:rgb(249,249,255);
+    cursor: pointer;
+}
+.services-image{
+    float: left;
+}
+.services-image img{
+    width: 100%;
+    height: 700px;
+}
+.services-title{
+    float: left;
+}
+.services-title>div i{
+    font-size: 50px;
+    padding-left: 40px;
+}
+.services-title h2{
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 40px;
+    color:rgb(128,43,251);
+}
+.services-title>div{
+    width: 50%;
+    padding: 20px 10px;
+    box-sizing: border-box;
+    float: left;
+}
+
+/*Portfolio*/
+.portfolio{
+    margin-top: 100px;
+}
+.portfolio h1, .portfolio p{
+    color: #222;
+    line-height: 1.2em;
+    text-align: center;
+}
+.portfolio-items>div{
+    width: 25%;
+    float: left;
+    padding:30px 10px ;
+    box-sizing: border-box;
+    text-align: center;
+}
+.portfolio-item a{
+    font-size: 36px;
+}
+.portfolio-button{
+     border: 1px solid rgb(128,43,251);
+}
+.portfolio-button:hover{
+     color: black;
+     border: 1px solid black;
+}
+
+/*setting section*/
+.setting{
+    margin: 100px 0;
+}
+.setting-items>div{
+    width: 25%;
+    float: left;
+    text-align: center;
+    box-sizing: border-box;
+}
+.setting-item{
+    background-color: black;
+    line-height: 18px;
+    padding: 18px 10px;
+}
+.setting-item h3{
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+}
+.setting-item h2{
+    font-size: 28px;
+    color:rgb(128,43,251);
+}
+.setting-item p{
+    line-height: 18px;
+    color: rgb(61,90,105);
+}
+.setting-item__image img{
+    max-width: 100%;
+    height: 260px;
+}
+
+/*latter section*/
+.latter{
+    margin-top: 10rem;
+}
+.latter h1{
+    margin-bottom: 10px;
+    line-height: 42px;
+}
+.latter-images{
+    margin-top: 40px;
+    cursor: pointer;
+}
+.latter-images__1 img{
+    box-sizing: border-box;
+    padding-top: 30px;
+}
+.latter-images__1 .latter-1{
+    width: 60%;
+    height: 370px;
+    padding-right: 30px;
+    float: left;
+}
+.latter-images__1 .latter-2{
+    width: 40%;
+    height: 370px;
+    float: right;
+}
+.latter-images__2 img{
+    box-sizing: border-box;
+    padding-top: 30px;
+}
+.latter-images__2 .latter-1{
+    width: 40%;
+    height: 370px;
+    padding-right: 30px;
+    float: left;
+}
+.latter-images__2 .latter-2{
+    width: 60%;
+    height: 370px;
+    float: right;
+}
+.latter-images__1 img:hover{
+    opacity: 0.5;
+}
+.latter-images__2 img:hover{
+    opacity: 0.5;
+}
+
+/*statistics section*/
+.statistics{
+    margin-top: 200px;
+    height: 400px;
+    background-image: -webkit-linear-gradient(0deg,#5f36ff 0%,#b719f6 100%);
+}
+.statistics>div{
+    width: 20%;
+    display: inline-block;
+    padding-top: 90px;
+}
+.statistics-item{
+    float: left;
+    text-align: center;
+}
+.statistics-item h1{
+    font-size: 58px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #fff;
+}
+.statistics-item p{
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 10px;
+    color: #fff;
+}
+
+/* Latter_two section*/
+.latter-two{
+    margin-top: 150px;
+}
+.latter-two h1{
+    font-size: 48px;
+    line-height: 56px;
+    margin-bottom: 20px;
+}
+.latter-two__items{
+    margin-top:80px;
+}
+.latter-two__items>div{
+    width: 33%;
+    display: inline-block;
+    box-sizing: border-box;
+}
+.latter_two__item{
+    position: relative;
+    padding-right: 30px;
+    z-index: 1;
+}
+.latter-two__item__image img{
+    width: 100%;
+    float: left;
+}
+.latter-two__item__information{
+    position: absolute;
+    margin-top: 190px;
+    color: #fff;
+    cursor: pointer;
+    z-index: 2;
+}
+.latter-two__item__information h3{
+    font-size: 28px;
+    font-weight: 500;
+    padding-right: 24px;
+    line-height: 32px;
+}
+.latter-two__item__information p{
+    font-size: 20px;
+    line-height: 24px;
+    padding-right:30px;
+    color: rgb(46, 70, 118);
+}
+.designer {
+    margin-top: 40px;
+    width: 80%;
+    line-height: 10px;
+    vertical-align: middle;
+}
+.designer img{
+    display: inline;
+    margin-left: 30px;
+    float: left;
+    width: 60px;
+    height: 60px;
+}
+.designer h4{
+    font-size: 18px;
+    font-weight:400;
+    padding-top: 12px;
+    margin-bottom: 5px;
+    color: #fff;
+}
+.designer p{
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 5px;
+}
+.latter-two__item__information:hover h3{
+    color: #0056b3;
+}
+.latter-two__item__information:hover .latter-two__info2{
+    color: #fff;
+}
+.designer:hover p{
+    color: #fff;
+}
+
+/*Partners section*/
+.partners-item i{
+    font-size: 100px;
+}
+.partners-item:hover i{
+    color: #0056b3;
+}
